@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         imageButton_bateria.setOnClickListener {
-            modelview.ClickButton("Roxas","Baterias", this)
+            modelview.ClickButton("Roxa","Baterias", this)
         }
 
         imageButton_naoReciclavel.setOnClickListener {
@@ -49,7 +49,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         imageButton_madeira.setOnClickListener {
-            modelview.ClickButton("preta","Madeiras", this)
+            modelview.ClickButton("Preta","Madeiras", this)
+        }
+
+        imageButton_vidro.setOnClickListener {
+            modelview.ClickButton("Verde","Vidros", this)
         }
     }
 

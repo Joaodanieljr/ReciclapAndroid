@@ -76,8 +76,10 @@ class DBHelper(context: Context): SQLiteOpenHelper(context,DATABASE_NAME,null,DA
 
         fun addMaterial(material:Materiais){
 
+
             val db:SQLiteDatabase = this.writableDatabase
             val values = ContentValues()
+
 
             values.put(COL_ID, material.id)
             values.put(COL_NOME, material.nome)
